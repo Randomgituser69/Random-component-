@@ -1,1 +1,99 @@
+/*
+  Josh's Custom CSS Reset
+    https://www.joshwcomeau.com/css/custom-css-reset/
+    */
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+p {
+  text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+/* CSS Styles 👇 */
+* {
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #092E20;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 7em;
+    margin-bottom: 9em;
+    max-width: 21rem;
+    align-items: center;
+    background-color: white;
+    color: darkolivegreen;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 20px;
+}
+img { 
+    border-radius: 1rem;
+}
+.card h1 {
+    padding: 15px;
+    color: #092E20;
+    font-weight: 700;
+}
+.card p {
+    padding: 1px;
+    font-weight: 400;
+}
